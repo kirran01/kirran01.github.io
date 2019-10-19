@@ -1,37 +1,198 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-  <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Kirpalani Designs</title>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <body>
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="css/icon-font.css">
+  <link rel="stylesheet" href="css/icon-font.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
 
-      <header>
-            <nav class="container">
+  <title>Kirpalani Designs</title>
+</head>
 
-                    <div class="1">
-                    <a href="#" class="navLinks">About</a>
-                    </div>
-                    <div class="2">
-                    <a href="./index2.html" class="navLinks">Gallery</a>
-                    </div>
-                    <div class="3">
-                    <a href="#" class="navLinks">Contact</a>
-                    </div>
-    
-                  </nav>
+<body>
+  <header class="header">
+    <!-- <div class="header__logo-box">
+            <img src="img/logo-white.png" alt="Logo" class="header__logo">
+        </div> -->
 
-    </header>
+    <div class="header__text-box">
+      <h1 class="heading-primary">
+        <span class="heading-primary--main">Kirpalani</span>
+        <span class="heading-primary--sub">Design & Engineering</span>
+      </h1>
+      <a href="#test" class="btn btn--white btn--animated">See my Work</a>
+    </div>
 
-   
-    <div class="frame"></div>
+  </header>
 
-        
-      <h1>Kirpalani Designs</h1>
-      <h2>Designer & Developer</h2>
+  <main>
+    <section class="section-about">
+      <div class="u-center-text u-margin-bottom-big">
+        <h2 class="heading-secondary">
+          a little about me
+        </h2>
+      </div>
 
-  </body>
+      <div class="row">
+        <div class="col-1-of-2">
+          <h3 class="heading-tertiary u-margin-bottom-small">Elevator pitch</h3>
+          <p class="paragraph">
+            Coming from a background of Emerging Digital Practices and Psychology, I'm obsessed with the individual and
+            the creative potential of Software Engineering which makes me a natural fit for empathy-based design and
+            development.
+          </p>
+
+          <h3 class="heading-tertiary u-margin-bottom-small">Early life</h3>
+          <p class="paragraph">
+            Born and raised in the cultural melting pot of Trinidad and Tobago; I then moved to the United States to
+            attend University and build my career.
+          </p>
+
+          <a href="http://www.LinkedIn.com/in/kirran-kirpalani" class="btn-text">LinkedIn &rarr;</a>
+
+        </div>
+        <div class="col-1-of-2">
+          <div class="composition">
+            <img src="https://i.postimg.cc/7hkGZHx1/DU.jpg" alt="photo 1"
+              class="composition__photo composition__photo--p1">
+            <img src="https://i.postimg.cc/hv1JJkjk/maracas.jpg" alt="photo 1"
+              class="composition__photo composition__photo--p2">
+            <img src="https://i.postimg.cc/q7LtmV0j/selfie.png" alt="photo 3"
+              class="composition__photo composition__photo--p3">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="test" class="section-features">
+
+      <div class="row">
+        <div class="col-1-of-4">
+          <div class="feature-box">
+            <i class="feature-box__icon icon-basic-photo"></i>
+            <h3 class="heading-tertiary u-margin-bottom-small">Tour Page</h3>
+            <p class="feature-box__text">
+              A sample of some front end skill utilizing modern SASS techniques such as animation, perspective and
+              keyframe
+            </p>
+            <a href="https://codepen.io/Kirpzmoney/live/gOOPJQZ" class="btn-text">Demo</a>
+          </div>
+        </div>
+
+        <div class="col-1-of-4">
+          <div class="feature-box">
+            <i class="feature-box__icon icon-basic-pencil-ruler"></i>
+            <h3 class="heading-tertiary u-margin-bottom-small">Math Hero</h3>
+            <p class="feature-box__text">
+              A simple game demonstrating my understanding of Javascript in which users receive points based on how
+              quickly they answer arithmitic math problems.
+            </p>
+            <a href="https://codepen.io/Kirpzmoney/pen/ExYBQmx" class="btn-text">Demo</a>
+          </div>
+        </div>
+
+        <div class="col-1-of-4">
+          <div class="feature-box">
+            <i class="feature-box__icon icon-basic-lightbulb"></i>
+            <h3 class="heading-tertiary u-margin-bottom-small">UX/UI Work</h3>
+            <p class="feature-box__text">
+              My portfolio showcasing several client-based projects I completed during the course of my UXDI immersive
+              program at General Assembly.
+            </p>
+            <a href="https://thekirpz.wordpress.com/" class="btn-text">Demo</a>
+          </div>
+        </div>
+
+        <div class="col-1-of-4">
+          <div class="feature-box">
+            <i class="feature-box__icon icon-basic-webpage"></i>
+            <h3 class="heading-tertiary u-margin-bottom-small">Front-End Samples</h3>
+            <p class="feature-box__text">
+              (coming soon) I am currently in the process of learning advanced modern CSS techniques which I will be
+              displaying in future websites to come. Stay tuned :)
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+  <!--
+    <section class="grid-test">
+        <div class="row">
+            <div class="col-1-of-2">
+                col 1 of 2
+            </div>
+            <div class="col-1-of-2">
+                col 1 of 2
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-3">
+                col 1 of 3
+            </div>
+            <div class="col-1-of-3">
+                col 1 of 3
+            </div>
+            <div class="col-1-of-3">
+                col 1 of 3
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-3">
+                col 1 of 3
+            </div>
+            <div class="col-2-of-3">
+                col 2 of 3
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-1-of-4">
+                col 1 of 4
+            </div>
+            <div class="col-1-of-4">
+                col 1 of 4
+            </div>
+            <div class="col-1-of-4">
+                col 1 of 4
+            </div>
+            <div class="col-1-of-4">
+                col 1 of 4
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-4">
+                col 1 of 4
+            </div>
+            <div class="col-1-of-4">
+                col 1 of 4
+            </div>
+            <div class="col-2-of-4">
+                col 2 of 4
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-4">
+                col 1 of 4
+            </div>
+            <div class="col-3-of-4">
+                col 3 of 4
+            </div>
+        </div>
+    </section>
+    -->
+</body>
 
 </html>
